@@ -17,4 +17,17 @@ class AppTest {
     assertEquals(4, classUnderTest.longestConsecutive(new int[] { 100, 4, 200, 1, 3, 2 }),
         "Should be 4 consecutive numbers");
   }
+
+  void nineConsecutiveElements() {
+    LongestConsecutive classUnderTest = new LongestConsecutive();
+    assertEquals(9, classUnderTest.longestConsecutive(new int[] { 0, 3, 7, 2, 5, 8, 4, 6, 0, 1 }),
+        "Should be 9 consecutive numbers");
+  }
+
+  void threeConsecutiveElements() {
+    LongestConsecutive classUnderTest = new LongestConsecutive();
+    assertEquals(3, classUnderTest.longestConsecutive(new int[] { 1, 0, 1, 2 }),
+        "Should be 3 consecutive numbers");
+  }
+
 }

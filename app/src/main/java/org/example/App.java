@@ -6,9 +6,12 @@ package org.example;
 public class App {
 
   public static void main(String[] args) {
-    int[] nums = { 1, 2, 3 };
-    // System.out.println(new App().getGreeting());
+    int[] nums = { 100, 4, 200, 1, 3, 2 };
     System.out.println(new LongestConsecutive().longestConsecutive(nums));
+    int[] nums2 = { 0, 3, 7, 2, 5, 8, 4, 6, 0, 1 };
+    System.out.println(new LongestConsecutive().longestConsecutive(nums2));
+    int[] nums3 = { 1, 0, 1, 2 };
+    System.out.println(new LongestConsecutive().longestConsecutive(nums3));
   }
 
 }
