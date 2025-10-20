@@ -109,13 +109,16 @@ Temporary Items
 .settings
 build/
 app.bat
-tmp/
-gradle/
+# tmp/
+# gradle/
 gradlew
 gradlew.bat
-gradle.properties
-.project
-.gitattributes
-settings.gradle
-build.gradle
-.classpath
+# gradle.properties
+# .project
+# .gitattributes
+# settings.gradle
+# build.gradle
+# .classpath
+
+# Ignore Gradle build output directory
+build
